@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useEffect } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import ProfileSection from './components/ProfileSection';
@@ -16,6 +17,11 @@ function App() {
   const [selectedProjectId, setSelectedProjectId] = useState<string | null>(null);
   const [selectedBlogId, setSelectedBlogId] = useState<string | null>(null);
   const [isContactModalOpen, setIsContactModalOpen] = useState(false); // 👈 modal state
+
+  // Scroll to top whenever the page changes
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [currentPage, selectedProjectId, selectedBlogId]);
 
   const handleNavigate = (page: string) => {
     setCurrentPage(page);

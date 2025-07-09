@@ -13,6 +13,8 @@ const ProjectGrid: React.FC<ProjectGridProps> = ({ projects, onProjectClick }) =
   const [sortBy, setSortBy] = useState('recent');
   const [filterCategory, setFilterCategory] = useState('all');
   const [searchTerm, setSearchTerm] = useState('');
+  const [displayCount, setDisplayCount] = useState(9); // Show 9 projects initially
+  const LOAD_MORE_COUNT = 6; // Load 6 more projects each time
 
   // Extract unique categories from projects
   const allCategories = Array.from(new Set(projects.map(project => project.category)));
@@ -38,13 +40,27 @@ const ProjectGrid: React.FC<ProjectGridProps> = ({ projects, onProjectClick }) =
       }
     });
 
+  // Projects to display (limited by displayCount)
+  const displayedProjects = filteredProjects.slice(0, displayCount);
+  const hasMoreProjects = displayCount < filteredProjects.length;
+
+  const handleLoadMore = () => {
+    setDisplayCount(prev => prev + LOAD_MORE_COUNT);
+  };
+
+  // Reset display count when filters change
+  React.useEffect(() => {
+    setDisplayCount(9);
+  }, [filterCategory, searchTerm, sortBy]);
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       {/* Header */}
       <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-12">
         <div className="mb-6 lg:mb-0">
           <h2 className="text-3xl font-bold text-gray-900 mb-2">My Projects</h2>
-          <p className="text-gray-600 text-lg">{filteredProjects.length} projects showcasing my design journey</p>
+          <p className="text-gray-600 text-lg">
+            Showing {displayedProjects.length} of {filteredProjects.length} projects
+          </p>
         </div>
 
         {/* Controls */}
@@ -117,7 +133,7 @@ const ProjectGrid: React.FC<ProjectGridProps> = ({ projects, onProjectClick }) =
           ? 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3' 
           : 'grid-cols-1'
       }`}>
-        {filteredProjects.map((project) => (
+        {displayedProjects.map((project) => (
           <ProjectCard 
             key={project.id} 
             project={project} 
@@ -127,9 +143,12 @@ const ProjectGrid: React.FC<ProjectGridProps> = ({ projects, onProjectClick }) =
       </div>
 
       {/* Load More Button */}
-      {filteredProjects.length > 0 && (
+      {hasMoreProjects && (
         <div className="flex justify-center mt-16">
-          <button className="bg-white border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-lg hover:border-blue-600 hover:text-blue-600 transition-all duration-200 font-medium shadow-sm hover:shadow-md">
+          <button 
+            onClick={handleLoadMore}
+            className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-200 font-medium shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+          >
             Load More Projects
           </button>
         </div>
@@ -143,6 +162,15 @@ const ProjectGrid: React.FC<ProjectGridProps> = ({ projects, onProjectClick }) =
           </div>
           <h3 className="text-xl font-medium text-gray-900 mb-2">No projects found</h3>
           <p className="text-gray-500">Try adjusting your search or filter criteria.</p>
+        </div>
+      )}
+
+      {/* Show all projects loaded message */}
+      {!hasMoreProjects && filteredProjects.length > 9 && (
+        <div className="text-center mt-16">
+          <p className="text-gray-600 font-medium">
+            All {filteredProjects.length} projects loaded
+          </p>
         </div>
       )}
     </div>
