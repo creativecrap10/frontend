@@ -114,10 +114,10 @@ const ProfileSection: React.FC<ProfileSectionProps> = ({ user }) => {
                 onClick={() => setIsContactModalOpen(true)}
                 className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-200 font-medium shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
               >
-                Hire Me
+                Visit Now
               </button>
               <button className="border-2 border-gray-300 text-gray-700 px-8 py-3 rounded-lg hover:border-blue-600 hover:text-blue-600 transition-all duration-200 font-medium">
-                Download CV
+                Download
               </button>
             </div>
           </div>
