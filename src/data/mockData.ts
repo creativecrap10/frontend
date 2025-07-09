@@ -17,7 +17,7 @@ export const mockUser: User = {
   },
   followers: 8500,
   following: 1240,
-  projects: 47,
+  projects: 67,
   verified: true,
 };
 
@@ -115,6 +115,209 @@ export const mockProjects: Project[] = [
     views: 2780,
     likes: 234,
     date: '2023-12-15',
+  },
+  {
+    id: '7',
+    title: 'Travel Booking App Redesign',
+    category: 'Mobile App',
+    description: 'Complete redesign of a travel booking app focusing on user journey optimization.',
+    tools: ['Figma', 'Principle', 'Adobe XD'],
+    thumbnail: 'https://images.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&cs=tinysrgb&w=800',
+    images: [
+      'https://images.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&cs=tinysrgb&w=1200'
+    ],
+    views: 3450,
+    likes: 298,
+    date: '2023-12-10',
+    featured: true,
+    problem: 'Users were abandoning bookings due to complex flow and lack of clear progress indicators.',
+    solution: 'Simplified the booking process with step-by-step guidance and visual progress tracking.',
+    process: 'User interviews, journey mapping, wireframing, prototyping, and usability testing.',
+    results: 'Reduced booking abandonment by 45% and increased conversion rates by 30%.'
+  },
+  {
+    id: '8',
+    title: 'Fitness App UI Design',
+    category: 'Mobile App',
+    description: 'Modern fitness tracking app with workout plans and progress visualization.',
+    tools: ['Figma', 'After Effects'],
+    thumbnail: 'https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=800',
+    images: [
+      'https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1200'
+    ],
+    views: 2190,
+    likes: 187,
+    date: '2023-12-05',
+  },
+  {
+    id: '9',
+    title: 'Coffee Shop Branding',
+    category: 'Branding',
+    description: 'Complete brand identity for an artisan coffee shop including logo and packaging.',
+    tools: ['Adobe Illustrator', 'Photoshop', 'InDesign'],
+    thumbnail: 'https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=800',
+    images: [
+      'https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=1200'
+    ],
+    views: 1680,
+    likes: 142,
+    date: '2023-11-28',
+  },
+  {
+    id: '10',
+    title: 'Real Estate Platform Design',
+    category: 'Web Design',
+    description: 'Property listing platform with advanced search and virtual tour integration.',
+    tools: ['Figma', 'Adobe XD', 'Sketch'],
+    thumbnail: 'https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=800',
+    images: [
+      'https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1200'
+    ],
+    views: 2890,
+    likes: 245,
+    date: '2023-11-20',
+  },
+  {
+    id: '11',
+    title: 'Music Streaming App Interface',
+    category: 'Mobile App',
+    description: 'Dark-themed music streaming app with personalized playlists and social features.',
+    tools: ['Figma', 'Principle'],
+    thumbnail: 'https://images.pexels.com/photos/167636/pexels-photo-167636.jpeg?auto=compress&cs=tinysrgb&w=800',
+    images: [
+      'https://images.pexels.com/photos/167636/pexels-photo-167636.jpeg?auto=compress&cs=tinysrgb&w=1200'
+    ],
+    views: 3120,
+    likes: 276,
+    date: '2023-11-15',
+    featured: true,
+  },
+  {
+    id: '12',
+    title: 'Healthcare Dashboard',
+    category: 'UI/UX',
+    description: 'Patient management dashboard for healthcare professionals with data visualization.',
+    tools: ['Figma', 'Adobe XD'],
+    thumbnail: 'https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg?auto=compress&cs=tinysrgb&w=800',
+    images: [
+      'https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg?auto=compress&cs=tinysrgb&w=1200'
+    ],
+    views: 2340,
+    likes: 198,
+    date: '2023-11-08',
+  },
+  {
+    id: '13',
+    title: 'Food Delivery App Design',
+    category: 'Mobile App',
+    description: 'Food ordering app with restaurant discovery and real-time tracking.',
+    tools: ['Figma', 'Principle', 'Adobe XD'],
+    thumbnail: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800',
+    images: [
+      'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1200'
+    ],
+    views: 2750,
+    likes: 231,
+    date: '2023-11-01',
+  },
+  {
+    id: '14',
+    title: 'Cryptocurrency Exchange UI',
+    category: 'Web Design',
+    description: 'Trading platform interface with real-time charts and portfolio management.',
+    tools: ['Figma', 'Adobe XD'],
+    thumbnail: 'https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=800',
+    images: [
+      'https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=1200'
+    ],
+    views: 3890,
+    likes: 342,
+    date: '2023-10-25',
+  },
+  {
+    id: '15',
+    title: 'Educational Platform Design',
+    category: 'Web Design',
+    description: 'Online learning platform with course management and progress tracking.',
+    tools: ['Figma', 'Sketch'],
+    thumbnail: 'https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=800',
+    images: [
+      'https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=1200'
+    ],
+    views: 2180,
+    likes: 189,
+    date: '2023-10-18',
+  },
+  {
+    id: '16',
+    title: 'Social Media App Concept',
+    category: 'Mobile App',
+    description: 'Next-generation social media app focused on authentic connections and privacy.',
+    tools: ['Figma', 'Principle'],
+    thumbnail: 'https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=800',
+    images: [
+      'https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=1200'
+    ],
+    views: 4120,
+    likes: 378,
+    date: '2023-10-12',
+    featured: true,
+  },
+  {
+    id: '17',
+    title: 'Weather App Interface',
+    category: 'Mobile App',
+    description: 'Beautiful weather app with animated backgrounds and detailed forecasts.',
+    tools: ['Figma', 'After Effects'],
+    thumbnail: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800',
+    images: [
+      'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=1200'
+    ],
+    views: 1890,
+    likes: 156,
+    date: '2023-10-05',
+  },
+  {
+    id: '18',
+    title: 'Task Management Tool',
+    category: 'Web Design',
+    description: 'Productivity app for teams with project tracking and collaboration features.',
+    tools: ['Figma', 'Adobe XD'],
+    thumbnail: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
+    images: [
+      'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1200'
+    ],
+    views: 2560,
+    likes: 218,
+    date: '2023-09-28',
+  },
+  {
+    id: '19',
+    title: 'Photography Portfolio Website',
+    category: 'Web Design',
+    description: 'Minimalist portfolio website for professional photographers with gallery features.',
+    tools: ['Figma', 'Adobe XD', 'Webflow'],
+    thumbnail: 'https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&w=800',
+    images: [
+      'https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&w=1200'
+    ],
+    views: 1720,
+    likes: 143,
+    date: '2023-09-20',
+  },
+  {
+    id: '20',
+    title: 'Gaming Community Platform',
+    category: 'Web Design',
+    description: 'Gaming community hub with tournaments, leaderboards, and social features.',
+    tools: ['Figma', 'Adobe XD', 'Principle'],
+    thumbnail: 'https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=800',
+    images: [
+      'https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=1200'
+    ],
+    views: 3340,
+    likes: 289,
+    date: '2023-09-15',
   }
 ];
 
