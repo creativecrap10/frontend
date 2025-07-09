@@ -138,13 +138,13 @@ const ProfileSection: React.FC<ProfileSectionProps> = ({ user }) => {
           </div>
         </div>
       </div>
-    </div>
 
       {/* Contact Modal */}
       <ContactModal 
         isOpen={isContactModalOpen} 
         onClose={() => setIsContactModalOpen(false)} 
       />
+    </div>
   );
 };
 
