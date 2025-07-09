@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import ProfileSection from './components/ProfileSection';
 import ProjectGrid from './components/ProjectGrid';
-import ProjectDetail from './components/ProjectDetail';
+import ProjectDetailModal from './components/ProjectDetailModal';
 import AboutPage from './components/AboutPage';
 import FeedPage from './components/FeedPage';
 import BlogsPage from './components/BlogsPage';
@@ -15,23 +15,23 @@ import { mockUser, mockProjects, mockBlogPosts } from './data/mockData';
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
   const [selectedProjectId, setSelectedProjectId] = useState<string | null>(null);
+  const [isProjectModalOpen, setIsProjectModalOpen] = useState(false);
   const [selectedBlogId, setSelectedBlogId] = useState<string | null>(null);
   const [isContactModalOpen, setIsContactModalOpen] = useState(false); // 👈 modal state
 
   // Scroll to top whenever the page changes
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [currentPage, selectedProjectId, selectedBlogId]);
+  }, [currentPage, selectedBlogId]);
 
   const handleNavigate = (page: string) => {
     setCurrentPage(page);
-    setSelectedProjectId(null);
     setSelectedBlogId(null);
   };
 
   const handleProjectClick = (projectId: string) => {
     setSelectedProjectId(projectId);
-    setCurrentPage('project-detail');
+    setIsProjectModalOpen(true);
   };
 
   const handleBlogClick = (blogId: string) => {
@@ -39,9 +39,9 @@ function App() {
     setCurrentPage('blog-detail');
   };
 
-  const handleBackToProjects = () => {
+  const handleCloseProjectModal = () => {
     setSelectedProjectId(null);
-    setCurrentPage('home');
+    setIsProjectModalOpen(false);
   };
 
   const handleBackToBlogs = () => {
@@ -58,16 +58,6 @@ function App() {
     : null;
 
   const renderContent = () => {
-    if (currentPage === 'project-detail' && selectedProject) {
-      return (
-        <ProjectDetail
-          project={selectedProject}
-          onBack={handleBackToProjects}
-          onProjectClick={handleProjectClick}
-        />
-      );
-    }
-
     if (currentPage === 'blog-detail' && selectedBlog) {
       return (
         <BlogDetail
@@ -96,7 +86,7 @@ function App() {
     }
   };
 
-  const showFooter = !['project-detail', 'blog-detail'].includes(currentPage);
+  const showFooter = !['blog-detail'].includes(currentPage);
 
   return (
     <div className="min-h-screen bg-gray-50 relative">
@@ -110,10 +100,17 @@ function App() {
       </main>
       {showFooter && <Footer />}
 
-      {/* Modal rendered outside header */}
+      {/* Modals */}
       <ContactModal 
         isOpen={isContactModalOpen} 
         onClose={() => setIsContactModalOpen(false)} 
+      />
+      
+      <ProjectDetailModal
+        project={selectedProject}
+        isOpen={isProjectModalOpen}
+        onClose={handleCloseProjectModal}
+        onProjectClick={handleProjectClick}
       />
     </div>
   );
