@@ -30,8 +30,7 @@ export const mockProjects: Project[] = [
     tools: ['Figma', 'Adobe XD', 'Principle'],
     thumbnail: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800',
     images: [
-      'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=1200',
-      'https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-147413.jpeg?auto=compress&cs=tinysrgb&w=1200'
+      '/projects/w-aiimtech.jpg',
     ],
     views: 3240,
     likes: 287,

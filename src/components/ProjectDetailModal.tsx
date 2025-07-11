@@ -135,7 +135,7 @@ const ProjectDetailModal: React.FC<ProjectDetailModalProps> = ({
 
       {/* Main Content */}
       <div className="w-full h-full overflow-y-auto modal-scrollbar">
-        <div className="max-w-4xl mx-auto px-4 md:px-8 py-8">
+        <div className="mx-auto px-4 py-4 sm:pl-4 sm:pr-16 sm:max-w-sm md:pl-4 md:pr-10 md:max-w-4xl xl:max-w-7xl xl:py-6">
           {/* Header */}
           <div className="flex items-center gap-3 mb-8">
             <img
