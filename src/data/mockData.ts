@@ -1,6 +1,6 @@
 import { Project, User, BlogPost, FeedPost, Skill, Experience } from '../types';
 
-export const mockUser: FeedPost[] = [
+export const mockFeedPosts: FeedPost[] = [
   {
     id: '1',
     type: 'image',
