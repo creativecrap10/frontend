@@ -8,7 +8,7 @@ export const mockFeedPosts: FeedPost[] = [
     image: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=600',
     likes: 124,
     comments: 18,
-    date: '2024-01-22'
+    date: '2024-01-22',
   },
   {
     id: '2',
@@ -16,7 +16,7 @@ export const mockFeedPosts: FeedPost[] = [
     content: 'Dark vs Light Mode: Which do you prefer? been experimenting with both and found that context matters more than personal preference. Dark mode for focus sessions, light mode for detailed work.',
     likes: 89,
     comments: 23,
-    date: '2024-01-21'
+    date: '2024-01-21',
   },
   {
     id: '3',
@@ -25,7 +25,7 @@ export const mockFeedPosts: FeedPost[] = [
     image: 'https://images.pexels.com/photos/325876/pexels-photo-325876.jpeg?auto=compress&cs=tinysrgb&w=600',
     likes: 156,
     comments: 12,
-    date: '2024-01-20'
+    date: '2024-01-20',
   },
   {
     id: '4',
@@ -33,7 +33,7 @@ export const mockFeedPosts: FeedPost[] = [
     content: 'Just finished a 3-hour design session. There\'s something magical about getting into the flow state. What helps you get into your creative zone?',
     likes: 67,
     comments: 31,
-    date: '2024-01-19'
+    date: '2024-01-19',
   }
 ];
 
@@ -45,7 +45,7 @@ export const mockSkills: Skill[] = [
   { name: 'Adobe XD', level: 85, icon: 'Box' },
   { name: 'Illustrator', level: 90, icon: 'PenTool' },
   { name: 'Photoshop', level: 87, icon: 'Image' },
-  { name: 'Principle', level: 80, icon: 'Play' }
+  { name: 'Principle', level: 80, icon: 'Play' },
 ];
 
 export const mockExperience: Experience[] = [
@@ -53,18 +53,19 @@ export const mockExperience: Experience[] = [
     company: 'TechFlow Inc.',
     role: 'Senior UI/UX Designer',
     period: '2022 - Present',
-    description: 'Leading design for multiple SaaS products, managing a team of 3 designers, and establishing design systems.'
+    description: 'Leading design for multiple SaaS products, managing a team of 3 designers, and establishing design systems.',
   },
   {
     company: 'StartupLab',
     role: 'Product Designer',
     period: '2020 - 2022',
-    description: 'Designed mobile apps and web platforms for early-stage startups, focusing on user research and rapid prototyping.'
+    description: 'Designed mobile apps and web platforms for early-stage startups, focusing on user research and rapid prototyping.',
   },
   {
     company: 'Creative Agency',
     role: 'Junior Designer',
     period: '2019 - 2020',
-    description: 'Worked on branding projects, print design, and digital marketing materials for various clients.'
+    description: 'Worked on branding projects, print design, and digital marketing materials for various clients.',
   }
 ];
+```
