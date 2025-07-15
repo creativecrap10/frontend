@@ -68,4 +68,3 @@ export const mockExperience: Experience[] = [
     description: 'Worked on branding projects, print design, and digital marketing materials for various clients.',
   }
 ];
-```
