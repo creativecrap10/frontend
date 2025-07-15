@@ -1,6 +1,3 @@
-Here's the fixed version with all missing closing brackets and proper formatting:
-
-```typescript
 import { Project, User, BlogPost, FeedPost, Skill, Experience } from '../types';
 
 [Previous content remains unchanged until the mockFeedPosts array]
