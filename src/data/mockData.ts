@@ -1,7 +1,5 @@
 import { Project, User, BlogPost, FeedPost, Skill, Experience } from '../types';
 
-[Previous content remains unchanged until the mockFeedPosts array]
-
 export const mockFeedPosts: FeedPost[] = [
   {
     id: '1',
