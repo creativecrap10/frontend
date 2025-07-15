@@ -13,7 +13,7 @@ export const mockFeedPosts: FeedPost[] = [
   {
     id: '2',
     type: 'text',
-    content: 'Dark vs Light Mode: Which do you prefer? I\'ve been experimenting with both and found that context matters more than personal preference. Dark mode for focus sessions, light mode for detailed work.',
+    content: 'Dark vs Light Mode: Which do you prefer? been experimenting with both and found that context matters more than personal preference. Dark mode for focus sessions, light mode for detailed work.',
     likes: 89,
     comments: 23,
     date: '2024-01-21'
