@@ -658,7 +658,9 @@ export const mockFeedPosts: FeedPost[] = [
     id: '1',
     type: 'image',
     content: 'Daily UI #17 – Calculator App. Exploring neumorphism design trends.',
-    image: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'ht
+  }
+]tps://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=600',
     likes: 124,
     comments: 18,
     date: '2024-01-22'
