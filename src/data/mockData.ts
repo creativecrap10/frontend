@@ -4,7 +4,7 @@ export const mockUser: User = {
   id: '1',
   name: 'Tom Anderson',
   username: 'tomanderson',
-  avatar: '/images/profileperson.png',
+  avatar: '/public/profileperson.png',
   bio: 'UI/UX Designer passionate about creating intuitive digital experiences. I love turning complex problems into simple, beautiful solutions.',
   location: 'San Francisco, CA',
   website: 'tomanderson.design',
@@ -28,9 +28,9 @@ export const mockProjects: Project[] = [
     category: 'UI/UX',
     description: 'Dashboard for financial tracking and analytics, built for fintech startups.',
     tools: ['Figma', 'Adobe XD', 'Principle'],
-    thumbnail: '/images/projects/w-bameletrics.jpg',
+    thumbnail: '/public/projects/w-bameletrics.jpg',
     images: [
-      '/images/projects/w-bameletrics.jpg'
+      '/public/projects/w-bameletrics.jpg'
     ],
     views: 3240,
     likes: 287,
@@ -47,9 +47,9 @@ export const mockProjects: Project[] = [
     category: 'UI/UX',
     description: 'A minimalistic shopping app with product filters, cart system, and payment flow.',
     tools: ['Figma', 'Adobe XD'],
-    thumbnail: '/images/projects/w-djstechnologies.jpg',
+    thumbnail: '/public/projects/w-djstechnologies.jpg',
     images: [
-      '/images/projects/w-djstechnologies.jpg'
+      '/public/projects/w-djstechnologies.jpg'
     ],
     views: 2890,
     likes: 203,
@@ -65,9 +65,9 @@ export const mockProjects: Project[] = [
     category: 'Branding',
     description: 'Complete brand identity including logo, color palette, and brand guidelines.',
     tools: ['Adobe Illustrator', 'Photoshop'],
-    thumbnail: '/images/projects/w-aiimtech.jpg',
+    thumbnail: '/public/projects/w-aiimtech.jpg',
     images: [
-      '/images/projects/w-aiimtech.jpg'
+      '/public/projects/w-aiimtech.jpg'
     ],
     views: 1560,
     likes: 124,
@@ -79,9 +79,9 @@ export const mockProjects: Project[] = [
     category: 'UI/UX',
     description: 'Secure and intuitive mobile banking experience with biometric authentication.',
     tools: ['Figma', 'Principle'],
-    thumbnail: '/images/projects/w-wfs.jpg',
+    thumbnail: '/public/projects/w-wfs.jpg',
     images: [
-      '/images/projects/w-wfs.jpg'
+      '/public/projects/w-wfs.jpg'
     ],
     views: 2100,
     likes: 189,
@@ -93,9 +93,9 @@ export const mockProjects: Project[] = [
     category: 'Print Design',
     description: 'Elegant menu design for a fine dining restaurant with modern typography.',
     tools: ['Adobe InDesign', 'Illustrator'],
-    thumbnail: '/images/projects/w-crackertheme.jpg',
+    thumbnail: '/public/projects/w-crackertheme.jpg',
     images: [
-      '/images/projects/w-crackertheme.jpg'
+      '/public/projects/w-crackertheme.jpg'
     ],
     views: 890,
     likes: 67,
@@ -107,9 +107,9 @@ export const mockProjects: Project[] = [
     category: 'UI/UX',
     description: 'Analytics dashboard for SaaS companies with real-time data visualization.',
     tools: ['Figma', 'Adobe XD'],
-    thumbnail: '/images/projects/w-wfsdomestic.jpg',
+    thumbnail: '/public/projects/w-wfsdomestic.jpg',
     images: [
-      '/images/projects/w-wfsdomestic.jpg'
+      '/public/projects/w-wfsdomestic.jpg'
     ],
     views: 2780,
     likes: 234,
@@ -121,9 +121,9 @@ export const mockProjects: Project[] = [
     category: 'Mobile App',
     description: 'Complete redesign of a travel booking app focusing on user journey optimization.',
     tools: ['Figma', 'Principle', 'Adobe XD'],
-    thumbnail: '/images/projects/w-iir.jpg',
+    thumbnail: '/public/projects/w-iir.jpg',
     images: [
-      '/images/projects/w-iir.jpg'
+      '/public/projects/w-iir.jpg'
     ],
     views: 3450,
     likes: 298,
@@ -140,9 +140,9 @@ export const mockProjects: Project[] = [
     category: 'Mobile App',
     description: 'Modern fitness tracking app with workout plans and progress visualization.',
     tools: ['Figma', 'After Effects'],
-    thumbnail: '/images/projects/w-bameletrics.jpg',
+    thumbnail: '/public/projects/w-bameletrics.jpg',
     images: [
-      '/images/projects/w-bameletrics.jpg'
+      '/public/projects/w-bameletrics.jpg'
     ],
     views: 2190,
     likes: 187,
@@ -154,9 +154,9 @@ export const mockProjects: Project[] = [
     category: 'Branding',
     description: 'Complete brand identity for an artisan coffee shop including logo and packaging.',
     tools: ['Adobe Illustrator', 'Photoshop', 'InDesign'],
-    thumbnail: '/images/projects/w-djstechnologies.jpg',
+    thumbnail: '/public/projects/w-djstechnologies.jpg',
     images: [
-      '/images/projects/w-djstechnologies.jpg'
+      '/public/projects/w-djstechnologies.jpg'
     ],
     views: 1680,
     likes: 142,
@@ -168,9 +168,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Property listing platform with advanced search and virtual tour integration.',
     tools: ['Figma', 'Adobe XD', 'Sketch'],
-    thumbnail: '/images/projects/w-aiimtech.jpg',
+    thumbnail: '/public/projects/w-aiimtech.jpg',
     images: [
-      '/images/projects/w-aiimtech.jpg'
+      '/public/projects/w-aiimtech.jpg'
     ],
     views: 2890,
     likes: 245,
@@ -182,9 +182,9 @@ export const mockProjects: Project[] = [
     category: 'Mobile App',
     description: 'Dark-themed music streaming app with personalized playlists and social features.',
     tools: ['Figma', 'Principle'],
-    thumbnail: '/images/projects/w-wfs.jpg',
+    thumbnail: '/public/projects/w-wfs.jpg',
     images: [
-      '/images/projects/w-wfs.jpg'
+      '/public/projects/w-wfs.jpg'
     ],
     views: 3120,
     likes: 276,
@@ -197,9 +197,9 @@ export const mockProjects: Project[] = [
     category: 'UI/UX',
     description: 'Patient management dashboard for healthcare professionals with data visualization.',
     tools: ['Figma', 'Adobe XD'],
-    thumbnail: '/images/projects/w-crackertheme.jpg',
+    thumbnail: '/public/projects/w-crackertheme.jpg',
     images: [
-      '/images/projects/w-crackertheme.jpg'
+      '/public/projects/w-crackertheme.jpg'
     ],
     views: 2340,
     likes: 198,
@@ -211,9 +211,9 @@ export const mockProjects: Project[] = [
     category: 'Mobile App',
     description: 'Food ordering app with restaurant discovery and real-time tracking.',
     tools: ['Figma', 'Principle', 'Adobe XD'],
-    thumbnail: '/images/projects/w-wfsdomestic.jpg',
+    thumbnail: '/public/projects/w-wfsdomestic.jpg',
     images: [
-      '/images/projects/w-wfsdomestic.jpg'
+      '/public/projects/w-wfsdomestic.jpg'
     ],
     views: 2750,
     likes: 231,
@@ -225,9 +225,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Trading platform interface with real-time charts and portfolio management.',
     tools: ['Figma', 'Adobe XD'],
-    thumbnail: '/images/projects/w-iir.jpg',
+    thumbnail: '/public/projects/w-iir.jpg',
     images: [
-      '/images/projects/w-iir.jpg'
+      '/public/projects/w-iir.jpg'
     ],
     views: 3890,
     likes: 342,
@@ -239,9 +239,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Online learning platform with course management and progress tracking.',
     tools: ['Figma', 'Sketch'],
-    thumbnail: '/images/projects/w-bameletrics.jpg',
+    thumbnail: '/public/projects/w-bameletrics.jpg',
     images: [
-      '/images/projects/w-bameletrics.jpg'
+      '/public/projects/w-bameletrics.jpg'
     ],
     views: 2180,
     likes: 189,
@@ -253,9 +253,9 @@ export const mockProjects: Project[] = [
     category: 'Mobile App',
     description: 'Next-generation social media app focused on authentic connections and privacy.',
     tools: ['Figma', 'Principle'],
-    thumbnail: '/images/projects/w-djstechnologies.jpg',
+    thumbnail: '/public/projects/w-djstechnologies.jpg',
     images: [
-      '/images/projects/w-djstechnologies.jpg'
+      '/public/projects/w-djstechnologies.jpg'
     ],
     views: 4120,
     likes: 378,
@@ -268,9 +268,9 @@ export const mockProjects: Project[] = [
     category: 'Mobile App',
     description: 'Beautiful weather app with animated backgrounds and detailed forecasts.',
     tools: ['Figma', 'After Effects'],
-    thumbnail: '/images/projects/w-aiimtech.jpg',
+    thumbnail: '/public/projects/w-aiimtech.jpg',
     images: [
-      '/images/projects/w-aiimtech.jpg'
+      '/public/projects/w-aiimtech.jpg'
     ],
     views: 1890,
     likes: 156,
@@ -282,9 +282,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Productivity app for teams with project tracking and collaboration features.',
     tools: ['Figma', 'Adobe XD'],
-    thumbnail: '/images/projects/w-wfs.jpg',
+    thumbnail: '/public/projects/w-wfs.jpg',
     images: [
-      '/images/projects/w-wfs.jpg'
+      '/public/projects/w-wfs.jpg'
     ],
     views: 2560,
     likes: 218,
@@ -296,9 +296,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Minimalist portfolio website for a professional photographer.',
     tools: ['Figma', 'Webflow'],
-    thumbnail: '/images/projects/w-crackertheme.jpg',
+    thumbnail: '/public/projects/w-crackertheme.jpg',
     images: [
-      '/images/projects/w-crackertheme.jpg'
+      '/public/projects/w-crackertheme.jpg'
     ],
     views: 1720,
     likes: 143,
@@ -310,9 +310,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Social platform for gamers with tournaments, streaming, and community features.',
     tools: ['Figma', 'Adobe XD', 'Sketch'],
-    thumbnail: '/images/projects/w-wfsdomestic.jpg',
+    thumbnail: '/public/projects/w-wfsdomestic.jpg',
     images: [
-      '/images/projects/w-wfsdomestic.jpg'
+      '/public/projects/w-wfsdomestic.jpg'
     ],
     views: 3780,
     likes: 324,
@@ -373,7 +373,7 @@ The new design achieved remarkable results:
     author: 'Tom Anderson',
     date: '2024-01-20',
     readTime: '8 min read',
-    thumbnail: 'https://images.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&cs=tinysrgb&w=800',
+    thumbnail: 'https://public.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&cs=tinysrgb&w=800',
     featured: true
   },
   {
@@ -387,7 +387,7 @@ These are battle-tested techniques I've used across dozens of projects...`,
     author: 'Tom Anderson',
     date: '2024-01-15',
     readTime: '5 min read',
-    thumbnail: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800'
+    thumbnail: 'https://public.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: '3',
@@ -400,7 +400,7 @@ Logo design is more than just making something look pretty...`,
     author: 'Tom Anderson',
     date: '2024-01-10',
     readTime: '6 min read',
-    thumbnail: 'https://images.pexels.com/photos/325876/pexels-photo-325876.jpeg?auto=compress&cs=tinysrgb&w=800'
+    thumbnail: 'https://public.pexels.com/photos/325876/pexels-photo-325876.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: '4',
@@ -434,7 +434,7 @@ As a designer, I'm fascinated by how these technologies challenge traditional UI
     author: 'Tom Anderson',
     date: '2024-01-18',
     readTime: '7 min read',
-    thumbnail: 'https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=800',
+    thumbnail: 'https://public.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=800',
     featured: false
   },
   {
@@ -462,7 +462,7 @@ As a visual designer, I'm constantly inspired by how film uses color, compositio
     author: 'Tom Anderson',
     date: '2024-01-12',
     readTime: '5 min read',
-    thumbnail: 'https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=800'
+    thumbnail: 'https://public.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: '6',
@@ -489,7 +489,7 @@ The key is learning to work with AI as a tool while maintaining our unique human
     author: 'Tom Anderson',
     date: '2024-01-08',
     readTime: '6 min read',
-    thumbnail: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800'
+    thumbnail: 'https://public.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: '7',
@@ -529,7 +529,7 @@ The key isn't copying my exact routine, but finding what works for your schedule
     author: 'Tom Anderson',
     date: '2024-01-05',
     readTime: '4 min read',
-    thumbnail: 'https://images.pexels.com/photos/1028741/pexels-photo-1028741.jpeg?auto=compress&cs=tinysrgb&w=800'
+    thumbnail: 'https://public.pexels.com/photos/1028741/pexels-photo-1028741.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: '8',
@@ -566,7 +566,7 @@ As designers, we need to start thinking about spatial interfaces and how traditi
     author: 'Tom Anderson',
     date: '2024-01-22',
     readTime: '3 min read',
-    thumbnail: 'https://images.pexels.com/photos/1841841/pexels-photo-1841841.jpeg?auto=compress&cs=tinysrgb&w=800'
+    thumbnail: 'https://public.pexels.com/photos/1841841/pexels-photo-1841841.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: '9',
@@ -600,7 +600,7 @@ The game's UI is a masterclass in information hierarchy and accessibility. Compl
     author: 'Tom Anderson',
     date: '2024-01-14',
     readTime: '5 min read',
-    thumbnail: 'https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=800'
+    thumbnail: 'https://public.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=800'
   }
 ];
 
@@ -609,7 +609,7 @@ export const mockFeedPosts: FeedPost[] = [
     id: '1',
     type: 'image',
     content: 'Daily UI #17 – Calculator App. Exploring neumorphism design trends.',
-    image: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://public.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=600',
     likes: 124,
     comments: 18,
     date: '2024-01-22',
@@ -626,7 +626,7 @@ export const mockFeedPosts: FeedPost[] = [
     id: '3',
     type: 'image',
     content: 'New Brand Logo Sketch for a Pet Store. Going for playful yet professional.',
-    image: 'https://images.pexels.com/photos/325876/pexels-photo-325876.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://public.pexels.com/photos/325876/pexels-photo-325876.jpeg?auto=compress&cs=tinysrgb&w=600',
     likes: 156,
     comments: 12,
     date: '2024-01-20',
