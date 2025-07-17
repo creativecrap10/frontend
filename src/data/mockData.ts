@@ -28,9 +28,9 @@ export const mockProjects: Project[] = [
     category: 'UI/UX',
     description: 'Dashboard for financial tracking and analytics, built for fintech startups.',
     tools: ['Figma', 'Adobe XD', 'Principle'],
-    thumbnail: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800',
+    thumbnail: '/images/projects/w-bameletrics.jpg',
     images: [
-      'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=1200'
+      '/images/projects/w-bameletrics.jpg'
     ],
     views: 3240,
     likes: 287,
@@ -47,9 +47,9 @@ export const mockProjects: Project[] = [
     category: 'UI/UX',
     description: 'A minimalistic shopping app with product filters, cart system, and payment flow.',
     tools: ['Figma', 'Adobe XD'],
-    thumbnail: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800',
+    thumbnail: '/images/projects/w-djstechnologies.jpg',
     images: [
-      'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1200'
+      '/images/projects/w-djstechnologies.jpg'
     ],
     views: 2890,
     likes: 203,
@@ -65,9 +65,9 @@ export const mockProjects: Project[] = [
     category: 'Branding',
     description: 'Complete brand identity including logo, color palette, and brand guidelines.',
     tools: ['Adobe Illustrator', 'Photoshop'],
-    thumbnail: 'https://images.pexels.com/photos/325876/pexels-photo-325876.jpeg?auto=compress&cs=tinysrgb&w=800',
+    thumbnail: '/images/projects/w-aiimtech.jpg',
     images: [
-      'https://images.pexels.com/photos/325876/pexels-photo-325876.jpeg?auto=compress&cs=tinysrgb&w=1200'
+      '/images/projects/w-aiimtech.jpg'
     ],
     views: 1560,
     likes: 124,
@@ -79,9 +79,9 @@ export const mockProjects: Project[] = [
     category: 'UI/UX',
     description: 'Secure and intuitive mobile banking experience with biometric authentication.',
     tools: ['Figma', 'Principle'],
-    thumbnail: 'https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-147413.jpeg?auto=compress&cs=tinysrgb&w=800',
+    thumbnail: '/images/projects/w-wfs.jpg',
     images: [
-      'https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-147413.jpeg?auto=compress&cs=tinysrgb&w=1200'
+      '/images/projects/w-wfs.jpg'
     ],
     views: 2100,
     likes: 189,
@@ -93,9 +93,9 @@ export const mockProjects: Project[] = [
     category: 'Print Design',
     description: 'Elegant menu design for a fine dining restaurant with modern typography.',
     tools: ['Adobe InDesign', 'Illustrator'],
-    thumbnail: 'https://images.pexels.com/photos/1266808/pexels-photo-1266808.jpeg?auto=compress&cs=tinysrgb&w=800',
+    thumbnail: '/images/projects/w-crackertheme.jpg',
     images: [
-      'https://images.pexels.com/photos/1266808/pexels-photo-1266808.jpeg?auto=compress&cs=tinysrgb&w=1200'
+      '/images/projects/w-crackertheme.jpg'
     ],
     views: 890,
     likes: 67,
@@ -107,9 +107,9 @@ export const mockProjects: Project[] = [
     category: 'UI/UX',
     description: 'Analytics dashboard for SaaS companies with real-time data visualization.',
     tools: ['Figma', 'Adobe XD'],
-    thumbnail: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800',
+    thumbnail: '/images/projects/w-wfsdomestic.jpg',
     images: [
-      'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=1200'
+      '/images/projects/w-wfsdomestic.jpg'
     ],
     views: 2780,
     likes: 234,
@@ -121,9 +121,9 @@ export const mockProjects: Project[] = [
     category: 'Mobile App',
     description: 'Complete redesign of a travel booking app focusing on user journey optimization.',
     tools: ['Figma', 'Principle', 'Adobe XD'],
-    thumbnail: 'https://images.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&cs=tinysrgb&w=800',
+    thumbnail: '/images/projects/w-iir.jpg',
     images: [
-      'https://images.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&cs=tinysrgb&w=1200'
+      '/images/projects/w-iir.jpg'
     ],
     views: 3450,
     likes: 298,
@@ -140,9 +140,9 @@ export const mockProjects: Project[] = [
     category: 'Mobile App',
     description: 'Modern fitness tracking app with workout plans and progress visualization.',
     tools: ['Figma', 'After Effects'],
-    thumbnail: 'https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=800',
+    thumbnail: '/images/projects/w-bameletrics.jpg',
     images: [
-      'https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1200'
+      '/images/projects/w-bameletrics.jpg'
     ],
     views: 2190,
     likes: 187,
@@ -154,9 +154,9 @@ export const mockProjects: Project[] = [
     category: 'Branding',
     description: 'Complete brand identity for an artisan coffee shop including logo and packaging.',
     tools: ['Adobe Illustrator', 'Photoshop', 'InDesign'],
-    thumbnail: 'https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=800',
+    thumbnail: '/images/projects/w-djstechnologies.jpg',
     images: [
-      'https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=1200'
+      '/images/projects/w-djstechnologies.jpg'
     ],
     views: 1680,
     likes: 142,
@@ -168,9 +168,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Property listing platform with advanced search and virtual tour integration.',
     tools: ['Figma', 'Adobe XD', 'Sketch'],
-    thumbnail: 'https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=800',
+    thumbnail: '/images/projects/w-aiimtech.jpg',
     images: [
-      'https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1200'
+      '/images/projects/w-aiimtech.jpg'
     ],
     views: 2890,
     likes: 245,
@@ -182,9 +182,9 @@ export const mockProjects: Project[] = [
     category: 'Mobile App',
     description: 'Dark-themed music streaming app with personalized playlists and social features.',
     tools: ['Figma', 'Principle'],
-    thumbnail: 'https://images.pexels.com/photos/167636/pexels-photo-167636.jpeg?auto=compress&cs=tinysrgb&w=800',
+    thumbnail: '/images/projects/w-wfs.jpg',
     images: [
-      'https://images.pexels.com/photos/167636/pexels-photo-167636.jpeg?auto=compress&cs=tinysrgb&w=1200'
+      '/images/projects/w-wfs.jpg'
     ],
     views: 3120,
     likes: 276,
@@ -197,9 +197,9 @@ export const mockProjects: Project[] = [
     category: 'UI/UX',
     description: 'Patient management dashboard for healthcare professionals with data visualization.',
     tools: ['Figma', 'Adobe XD'],
-    thumbnail: 'https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg?auto=compress&cs=tinysrgb&w=800',
+    thumbnail: '/images/projects/w-crackertheme.jpg',
     images: [
-      'https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg?auto=compress&cs=tinysrgb&w=1200'
+      '/images/projects/w-crackertheme.jpg'
     ],
     views: 2340,
     likes: 198,
@@ -211,9 +211,9 @@ export const mockProjects: Project[] = [
     category: 'Mobile App',
     description: 'Food ordering app with restaurant discovery and real-time tracking.',
     tools: ['Figma', 'Principle', 'Adobe XD'],
-    thumbnail: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800',
+    thumbnail: '/images/projects/w-wfsdomestic.jpg',
     images: [
-      'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1200'
+      '/images/projects/w-wfsdomestic.jpg'
     ],
     views: 2750,
     likes: 231,
@@ -225,9 +225,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Trading platform interface with real-time charts and portfolio management.',
     tools: ['Figma', 'Adobe XD'],
-    thumbnail: 'https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=800',
+    thumbnail: '/images/projects/w-iir.jpg',
     images: [
-      'https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=1200'
+      '/images/projects/w-iir.jpg'
     ],
     views: 3890,
     likes: 342,
@@ -239,9 +239,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Online learning platform with course management and progress tracking.',
     tools: ['Figma', 'Sketch'],
-    thumbnail: 'https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=800',
+    thumbnail: '/images/projects/w-bameletrics.jpg',
     images: [
-      'https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=1200'
+      '/images/projects/w-bameletrics.jpg'
     ],
     views: 2180,
     likes: 189,
@@ -253,9 +253,9 @@ export const mockProjects: Project[] = [
     category: 'Mobile App',
     description: 'Next-generation social media app focused on authentic connections and privacy.',
     tools: ['Figma', 'Principle'],
-    thumbnail: 'https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=800',
+    thumbnail: '/images/projects/w-djstechnologies.jpg',
     images: [
-      'https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=1200'
+      '/images/projects/w-djstechnologies.jpg'
     ],
     views: 4120,
     likes: 378,
@@ -268,9 +268,9 @@ export const mockProjects: Project[] = [
     category: 'Mobile App',
     description: 'Beautiful weather app with animated backgrounds and detailed forecasts.',
     tools: ['Figma', 'After Effects'],
-    thumbnail: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800',
+    thumbnail: '/images/projects/w-aiimtech.jpg',
     images: [
-      'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=1200'
+      '/images/projects/w-aiimtech.jpg'
     ],
     views: 1890,
     likes: 156,
@@ -282,9 +282,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Productivity app for teams with project tracking and collaboration features.',
     tools: ['Figma', 'Adobe XD'],
-    thumbnail: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
+    thumbnail: '/images/projects/w-wfs.jpg',
     images: [
-      'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1200'
+      '/images/projects/w-wfs.jpg'
     ],
     views: 2560,
     likes: 218,
@@ -296,9 +296,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Minimalist portfolio website for a professional photographer.',
     tools: ['Figma', 'Webflow'],
-    thumbnail: 'https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?auto=compress&cs=tinysrgb&w=800',
+    thumbnail: '/images/projects/w-crackertheme.jpg',
     images: [
-      'https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?auto=compress&cs=tinysrgb&w=1200'
+      '/images/projects/w-crackertheme.jpg'
     ],
     views: 1720,
     likes: 143,
@@ -310,9 +310,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Social platform for gamers with tournaments, streaming, and community features.',
     tools: ['Figma', 'Adobe XD', 'Sketch'],
-    thumbnail: 'https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=800',
+    thumbnail: '/images/projects/w-wfsdomestic.jpg',
     images: [
-      'https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=1200'
+      '/images/projects/w-wfsdomestic.jpg'
     ],
     views: 3780,
     likes: 324,
