@@ -24,50 +24,50 @@ export const mockUser: User = {
 export const mockProjects: Project[] = [
   {
     id: '1',
-    title: 'Fintech Dashboard UI/UX Design',
-    category: 'UI/UX',
-    description: 'Dashboard for financial tracking and analytics, built for fintech startups.',
+    title: 'Bameletrics Analytics Dashboard',
+    category: 'Web Design',
+    description: 'Comprehensive analytics dashboard with data visualization and reporting features for business intelligence.',
     tools: ['Figma', 'Adobe XD', 'Principle'],
-    thumbnail: '/public/projects/w-bameletrics.jpg',
+    thumbnail: '/images/projects/w-bameletrics.jpg',
     images: [
-      '/public/projects/w-bameletrics.jpg'
+      '/images/projects/w-bameletrics.jpg'
     ],
     views: 3240,
     likes: 287,
     date: '2024-01-15',
     featured: true,
-    problem: 'Financial startups needed a comprehensive dashboard that could handle complex data visualization while maintaining simplicity for everyday users.',
-    solution: 'Created an intuitive dashboard with progressive disclosure, smart data filtering, and customizable widgets that adapt to user behavior.',
-    process: 'Started with user research, created personas, wireframed multiple concepts, prototyped interactions, and conducted usability testing.',
-    results: 'Increased user engagement by 40% and reduced task completion time by 60%. The design system was adopted across 3 different products.'
+    problem: 'Businesses needed a comprehensive analytics platform that could handle complex data visualization while maintaining simplicity for everyday users.',
+    solution: 'Created an intuitive dashboard with progressive disclosure, smart data filtering, and customizable widgets that adapt to user behavior patterns.',
+    process: 'Started with stakeholder interviews, analyzed existing analytics tools, wireframed multiple dashboard concepts, and conducted extensive usability testing.',
+    results: 'Increased user engagement by 40% and reduced data analysis time by 60%. The design system was adopted across multiple business intelligence products.'
   },
   {
     id: '2',
-    title: 'E-commerce App UI Design',
-    category: 'UI/UX',
-    description: 'A minimalistic shopping app with product filters, cart system, and payment flow.',
+    title: 'DJS Technologies Platform',
+    category: 'Web Design',
+    description: 'Modern technology platform with clean interface design and seamless user experience for tech solutions.',
     tools: ['Figma', 'Adobe XD'],
-    thumbnail: '/public/projects/w-djstechnologies.jpg',
+    thumbnail: '/images/projects/w-djstechnologies.jpg',
     images: [
-      '/public/projects/w-djstechnologies.jpg'
+      '/images/projects/w-djstechnologies.jpg'
     ],
     views: 2890,
     likes: 203,
     date: '2024-01-10',
-    problem: 'Traditional e-commerce apps are cluttered and overwhelming, leading to cart abandonment.',
-    solution: 'Designed a clean, minimal interface focusing on product discovery and streamlined checkout.',
-    process: 'Analyzed competitor apps, created user journey maps, designed wireframes, and tested prototypes.',
-    results: 'Reduced cart abandonment by 35% and improved conversion rates by 25%.'
+    problem: 'Technology companies needed a modern platform that could showcase complex services while maintaining user-friendly navigation.',
+    solution: 'Designed a clean, professional interface focusing on service discovery and clear information architecture.',
+    process: 'Analyzed competitor platforms, created user journey maps, designed wireframes, and tested prototypes with target users.',
+    results: 'Improved user engagement by 35% and increased service inquiries by 45%.'
   },
   {
     id: '3',
-    title: 'Brand Identity for Tech Startup',
-    category: 'Branding',
-    description: 'Complete brand identity including logo, color palette, and brand guidelines.',
+    title: 'AIIM Tech Solutions',
+    category: 'Web Design',
+    description: 'AI and technology solutions platform with modern design and intuitive user interface.',
     tools: ['Adobe Illustrator', 'Photoshop'],
-    thumbnail: '/public/projects/w-aiimtech.jpg',
+    thumbnail: '/images/projects/w-aiimtech.jpg',
     images: [
-      '/public/projects/w-aiimtech.jpg'
+      '/images/projects/w-aiimtech.jpg'
     ],
     views: 1560,
     likes: 124,
@@ -75,13 +75,13 @@ export const mockProjects: Project[] = [
   },
   {
     id: '4',
-    title: 'Mobile Banking App Concept',
-    category: 'UI/UX',
-    description: 'Secure and intuitive mobile banking experience with biometric authentication.',
+    title: 'WFS Financial Services',
+    category: 'Web Design',
+    description: 'Professional financial services website with secure design and comprehensive service offerings.',
     tools: ['Figma', 'Principle'],
-    thumbnail: '/public/projects/w-wfs.jpg',
+    thumbnail: '/images/projects/w-wfs.jpg',
     images: [
-      '/public/projects/w-wfs.jpg'
+      '/images/projects/w-wfs.jpg'
     ],
     views: 2100,
     likes: 189,
@@ -89,13 +89,13 @@ export const mockProjects: Project[] = [
   },
   {
     id: '5',
-    title: 'Restaurant Menu Design',
-    category: 'Print Design',
-    description: 'Elegant menu design for a fine dining restaurant with modern typography.',
+    title: 'Cracker Theme Design',
+    category: 'Web Design',
+    description: 'Creative theme design with modern aesthetics and responsive layout for digital platforms.',
     tools: ['Adobe InDesign', 'Illustrator'],
-    thumbnail: '/public/projects/w-crackertheme.jpg',
+    thumbnail: '/images/projects/w-crackertheme.jpg',
     images: [
-      '/public/projects/w-crackertheme.jpg'
+      '/images/projects/w-crackertheme.jpg'
     ],
     views: 890,
     likes: 67,
@@ -103,13 +103,13 @@ export const mockProjects: Project[] = [
   },
   {
     id: '6',
-    title: 'SaaS Dashboard Interface',
-    category: 'UI/UX',
-    description: 'Analytics dashboard for SaaS companies with real-time data visualization.',
+    title: 'WFS Domestic Services',
+    category: 'Web Design',
+    description: 'Domestic services platform with user-friendly interface and comprehensive service management.',
     tools: ['Figma', 'Adobe XD'],
-    thumbnail: '/public/projects/w-wfsdomestic.jpg',
+    thumbnail: '/images/projects/w-wfsdomestic.jpg',
     images: [
-      '/public/projects/w-wfsdomestic.jpg'
+      '/images/projects/w-wfsdomestic.jpg'
     ],
     views: 2780,
     likes: 234,
@@ -117,32 +117,32 @@ export const mockProjects: Project[] = [
   },
   {
     id: '7',
-    title: 'Travel Booking App Redesign',
-    category: 'Mobile App',
-    description: 'Complete redesign of a travel booking app focusing on user journey optimization.',
+    title: 'IIR Research Platform',
+    category: 'Web Design',
+    description: 'Research and information platform with clean design and advanced search capabilities.',
     tools: ['Figma', 'Principle', 'Adobe XD'],
-    thumbnail: '/public/projects/w-iir.jpg',
+    thumbnail: '/images/projects/w-iir.jpg',
     images: [
-      '/public/projects/w-iir.jpg'
+      '/images/projects/w-iir.jpg'
     ],
     views: 3450,
     likes: 298,
     date: '2023-12-10',
     featured: true,
-    problem: 'Users were abandoning bookings due to complex flow and lack of clear progress indicators.',
-    solution: 'Simplified the booking process with step-by-step guidance and visual progress tracking.',
-    process: 'User interviews, journey mapping, wireframing, prototyping, and usability testing.',
-    results: 'Reduced booking abandonment by 45% and increased conversion rates by 30%.'
+    problem: 'Research institutions needed a platform that could handle complex data while providing intuitive search and discovery features.',
+    solution: 'Developed a clean, organized interface with advanced filtering and search capabilities for efficient information retrieval.',
+    process: 'Conducted user interviews with researchers, mapped information architecture, created wireframes, and tested search functionality.',
+    results: 'Reduced research time by 45% and increased user satisfaction by 60%.'
   },
   {
     id: '8',
-    title: 'Fitness App UI Design',
-    category: 'Mobile App',
-    description: 'Modern fitness tracking app with workout plans and progress visualization.',
+    title: 'Bameletrics Pro Dashboard',
+    category: 'Web Design',
+    description: 'Advanced analytics dashboard with enhanced features and professional data visualization.',
     tools: ['Figma', 'After Effects'],
-    thumbnail: '/public/projects/w-bameletrics.jpg',
+    thumbnail: '/images/projects/w-bameletrics.jpg',
     images: [
-      '/public/projects/w-bameletrics.jpg'
+      '/images/projects/w-bameletrics.jpg'
     ],
     views: 2190,
     likes: 187,
@@ -150,13 +150,13 @@ export const mockProjects: Project[] = [
   },
   {
     id: '9',
-    title: 'Coffee Shop Branding',
-    category: 'Branding',
-    description: 'Complete brand identity for an artisan coffee shop including logo and packaging.',
+    title: 'DJS Tech Solutions Hub',
+    category: 'Web Design',
+    description: 'Comprehensive technology solutions hub with modern interface and service integration.',
     tools: ['Adobe Illustrator', 'Photoshop', 'InDesign'],
-    thumbnail: '/public/projects/w-djstechnologies.jpg',
+    thumbnail: '/images/projects/w-djstechnologies.jpg',
     images: [
-      '/public/projects/w-djstechnologies.jpg'
+      '/images/projects/w-djstechnologies.jpg'
     ],
     views: 1680,
     likes: 142,
@@ -164,13 +164,13 @@ export const mockProjects: Project[] = [
   },
   {
     id: '10',
-    title: 'Real Estate Platform Design',
+    title: 'AIIM Technology Platform',
     category: 'Web Design',
-    description: 'Property listing platform with advanced search and virtual tour integration.',
+    description: 'AI-powered technology platform with intelligent features and modern user experience.',
     tools: ['Figma', 'Adobe XD', 'Sketch'],
-    thumbnail: '/public/projects/w-aiimtech.jpg',
+    thumbnail: '/images/projects/w-aiimtech.jpg',
     images: [
-      '/public/projects/w-aiimtech.jpg'
+      '/images/projects/w-aiimtech.jpg'
     ],
     views: 2890,
     likes: 245,
@@ -178,13 +178,13 @@ export const mockProjects: Project[] = [
   },
   {
     id: '11',
-    title: 'Music Streaming App Interface',
-    category: 'Mobile App',
-    description: 'Dark-themed music streaming app with personalized playlists and social features.',
+    title: 'WFS Enterprise Solutions',
+    category: 'Web Design',
+    description: 'Enterprise-level financial solutions platform with comprehensive service management.',
     tools: ['Figma', 'Principle'],
-    thumbnail: '/public/projects/w-wfs.jpg',
+    thumbnail: '/images/projects/w-wfs.jpg',
     images: [
-      '/public/projects/w-wfs.jpg'
+      '/images/projects/w-wfs.jpg'
     ],
     views: 3120,
     likes: 276,
@@ -193,13 +193,13 @@ export const mockProjects: Project[] = [
   },
   {
     id: '12',
-    title: 'Healthcare Dashboard',
-    category: 'UI/UX',
-    description: 'Patient management dashboard for healthcare professionals with data visualization.',
+    title: 'Cracker Creative Platform',
+    category: 'Web Design',
+    description: 'Creative platform design with innovative layout and engaging user interface elements.',
     tools: ['Figma', 'Adobe XD'],
-    thumbnail: '/public/projects/w-crackertheme.jpg',
+    thumbnail: '/images/projects/w-crackertheme.jpg',
     images: [
-      '/public/projects/w-crackertheme.jpg'
+      '/images/projects/w-crackertheme.jpg'
     ],
     views: 2340,
     likes: 198,
@@ -207,13 +207,13 @@ export const mockProjects: Project[] = [
   },
   {
     id: '13',
-    title: 'Food Delivery App Design',
-    category: 'Mobile App',
-    description: 'Food ordering app with restaurant discovery and real-time tracking.',
+    title: 'WFS Domestic Solutions',
+    category: 'Web Design',
+    description: 'Domestic solutions platform with streamlined interface and service optimization.',
     tools: ['Figma', 'Principle', 'Adobe XD'],
-    thumbnail: '/public/projects/w-wfsdomestic.jpg',
+    thumbnail: '/images/projects/w-wfsdomestic.jpg',
     images: [
-      '/public/projects/w-wfsdomestic.jpg'
+      '/images/projects/w-wfsdomestic.jpg'
     ],
     views: 2750,
     likes: 231,
@@ -221,13 +221,13 @@ export const mockProjects: Project[] = [
   },
   {
     id: '14',
-    title: 'Cryptocurrency Exchange UI',
+    title: 'IIR Information Systems',
     category: 'Web Design',
-    description: 'Trading platform interface with real-time charts and portfolio management.',
+    description: 'Information research system with advanced data management and user-friendly interface.',
     tools: ['Figma', 'Adobe XD'],
-    thumbnail: '/public/projects/w-iir.jpg',
+    thumbnail: '/images/projects/w-iir.jpg',
     images: [
-      '/public/projects/w-iir.jpg'
+      '/images/projects/w-iir.jpg'
     ],
     views: 3890,
     likes: 342,
@@ -235,13 +235,13 @@ export const mockProjects: Project[] = [
   },
   {
     id: '15',
-    title: 'Educational Platform Design',
+    title: 'Bameletrics Analytics Pro',
     category: 'Web Design',
-    description: 'Online learning platform with course management and progress tracking.',
+    description: 'Professional analytics platform with advanced reporting and data visualization capabilities.',
     tools: ['Figma', 'Sketch'],
-    thumbnail: '/public/projects/w-bameletrics.jpg',
+    thumbnail: '/images/projects/w-bameletrics.jpg',
     images: [
-      '/public/projects/w-bameletrics.jpg'
+      '/images/projects/w-bameletrics.jpg'
     ],
     views: 2180,
     likes: 189,
@@ -249,13 +249,13 @@ export const mockProjects: Project[] = [
   },
   {
     id: '16',
-    title: 'Social Media App Concept',
-    category: 'Mobile App',
-    description: 'Next-generation social media app focused on authentic connections and privacy.',
+    title: 'DJS Technologies Suite',
+    category: 'Web Design',
+    description: 'Complete technology suite with integrated services and modern design approach.',
     tools: ['Figma', 'Principle'],
-    thumbnail: '/public/projects/w-djstechnologies.jpg',
+    thumbnail: '/images/projects/w-djstechnologies.jpg',
     images: [
-      '/public/projects/w-djstechnologies.jpg'
+      '/images/projects/w-djstechnologies.jpg'
     ],
     views: 4120,
     likes: 378,
@@ -264,13 +264,13 @@ export const mockProjects: Project[] = [
   },
   {
     id: '17',
-    title: 'Weather App Interface',
-    category: 'Mobile App',
-    description: 'Beautiful weather app with animated backgrounds and detailed forecasts.',
+    title: 'AIIM Advanced Systems',
+    category: 'Web Design',
+    description: 'Advanced AI systems platform with cutting-edge design and intelligent user interactions.',
     tools: ['Figma', 'After Effects'],
-    thumbnail: '/public/projects/w-aiimtech.jpg',
+    thumbnail: '/images/projects/w-aiimtech.jpg',
     images: [
-      '/public/projects/w-aiimtech.jpg'
+      '/images/projects/w-aiimtech.jpg'
     ],
     views: 1890,
     likes: 156,
@@ -278,13 +278,13 @@ export const mockProjects: Project[] = [
   },
   {
     id: '18',
-    title: 'Task Management Tool',
+    title: 'WFS Professional Services',
     category: 'Web Design',
-    description: 'Productivity app for teams with project tracking and collaboration features.',
+    description: 'Professional financial services platform with comprehensive client management and service delivery.',
     tools: ['Figma', 'Adobe XD'],
-    thumbnail: '/public/projects/w-wfs.jpg',
+    thumbnail: '/images/projects/w-wfs.jpg',
     images: [
-      '/public/projects/w-wfs.jpg'
+      '/images/projects/w-wfs.jpg'
     ],
     views: 2560,
     likes: 218,
@@ -292,13 +292,13 @@ export const mockProjects: Project[] = [
   },
   {
     id: '19',
-    title: 'Photography Portfolio Website',
+    title: 'Cracker Design Studio',
     category: 'Web Design',
-    description: 'Minimalist portfolio website for a professional photographer.',
+    description: 'Creative design studio platform with portfolio showcase and modern aesthetic appeal.',
     tools: ['Figma', 'Webflow'],
-    thumbnail: '/public/projects/w-crackertheme.jpg',
+    thumbnail: '/images/projects/w-crackertheme.jpg',
     images: [
-      '/public/projects/w-crackertheme.jpg'
+      '/images/projects/w-crackertheme.jpg'
     ],
     views: 1720,
     likes: 143,
@@ -306,13 +306,13 @@ export const mockProjects: Project[] = [
   },
   {
     id: '20',
-    title: 'Gaming Community Platform',
+    title: 'WFS Domestic Management',
     category: 'Web Design',
-    description: 'Social platform for gamers with tournaments, streaming, and community features.',
+    description: 'Domestic service management platform with efficient workflow and user-centered design.',
     tools: ['Figma', 'Adobe XD', 'Sketch'],
-    thumbnail: '/public/projects/w-wfsdomestic.jpg',
+    thumbnail: '/images/projects/w-wfsdomestic.jpg',
     images: [
-      '/public/projects/w-wfsdomestic.jpg'
+      '/images/projects/w-wfsdomestic.jpg'
     ],
     views: 3780,
     likes: 324,
