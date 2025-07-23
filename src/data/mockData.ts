@@ -4,7 +4,7 @@ export const mockUser: User = {
   id: '1',
   name: 'Tom Anderson',
   username: 'tomanderson',
-  avatar: '/public/profileperson.png',
+  avatar: '/profileperson.png',
   bio: 'UI/UX Designer passionate about creating intuitive digital experiences. I love turning complex problems into simple, beautiful solutions.',
   location: 'San Francisco, CA',
   website: 'tomanderson.design',
@@ -28,9 +28,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Comprehensive analytics dashboard with data visualization and reporting features for business intelligence.',
     tools: ['Figma', 'Adobe XD', 'Principle'],
-    thumbnail: '/public/projects/w-bameletrics.jpg',
+    thumbnail: '/projects/w-bameletrics.jpg',
     images: [
-      '/public/projects/w-bameletrics.jpg'
+      '/projects/w-bameletrics.jpg'
     ],
     views: 3240,
     likes: 287,
@@ -47,9 +47,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Modern technology platform with clean interface design and seamless user experience for tech solutions.',
     tools: ['Figma', 'Adobe XD'],
-    thumbnail: '/public/projects/w-djstechnologies.jpg',
+    thumbnail: '/projects/w-djstechnologies.jpg',
     images: [
-      '/public/projects/w-djstechnologies.jpg'
+      '/projects/w-djstechnologies.jpg'
     ],
     views: 2890,
     likes: 203,
@@ -65,9 +65,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'AI and technology solutions platform with modern design and intuitive user interface.',
     tools: ['Adobe Illustrator', 'Photoshop'],
-    thumbnail: '/public/projects/w-aiimtech.jpg',
+    thumbnail: '/projects/w-aiimtech.jpg',
     images: [
-      '/public/projects/w-aiimtech.jpg'
+      '/projects/w-aiimtech.jpg'
     ],
     views: 1560,
     likes: 124,
@@ -79,9 +79,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Professional financial services website with secure design and comprehensive service offerings.',
     tools: ['Figma', 'Principle'],
-    thumbnail: '/public/projects/w-wfs.jpg',
+    thumbnail: '/projects/w-wfs.jpg',
     images: [
-      '/public/projects/w-wfs.jpg'
+      '/projects/w-wfs.jpg'
     ],
     views: 2100,
     likes: 189,
@@ -93,9 +93,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Creative theme design with modern aesthetics and responsive layout for digital platforms.',
     tools: ['Adobe InDesign', 'Illustrator'],
-    thumbnail: '/public/projects/w-crackertheme.jpg',
+    thumbnail: '/projects/w-crackertheme.jpg',
     images: [
-      '/public/projects/w-crackertheme.jpg'
+      '/projects/w-crackertheme.jpg'
     ],
     views: 890,
     likes: 67,
@@ -107,9 +107,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Domestic services platform with user-friendly interface and comprehensive service management.',
     tools: ['Figma', 'Adobe XD'],
-    thumbnail: '/public/projects/w-wfsdomestic.jpg',
+    thumbnail: '/projects/w-wfsdomestic.jpg',
     images: [
-      '/public/projects/w-wfsdomestic.jpg'
+      '/projects/w-wfsdomestic.jpg'
     ],
     views: 2780,
     likes: 234,
@@ -121,9 +121,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Research and information platform with clean design and advanced search capabilities.',
     tools: ['Figma', 'Principle', 'Adobe XD'],
-    thumbnail: '/public/projects/w-iir.jpg',
+    thumbnail: '/projects/w-iir.jpg',
     images: [
-      '/public/projects/w-iir.jpg'
+      '/projects/w-iir.jpg'
     ],
     views: 3450,
     likes: 298,
@@ -140,9 +140,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Advanced analytics dashboard with enhanced features and professional data visualization.',
     tools: ['Figma', 'After Effects'],
-    thumbnail: '/public/projects/w-bameletrics.jpg',
+    thumbnail: '/projects/w-bameletrics.jpg',
     images: [
-      '/public/projects/w-bameletrics.jpg'
+      '/projects/w-bameletrics.jpg'
     ],
     views: 2190,
     likes: 187,
@@ -154,9 +154,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Comprehensive technology solutions hub with modern interface and service integration.',
     tools: ['Adobe Illustrator', 'Photoshop', 'InDesign'],
-    thumbnail: '/public/projects/w-djstechnologies.jpg',
+    thumbnail: '/projects/w-djstechnologies.jpg',
     images: [
-      '/public/projects/w-djstechnologies.jpg'
+      '/projects/w-djstechnologies.jpg'
     ],
     views: 1680,
     likes: 142,
@@ -168,9 +168,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'AI-powered technology platform with intelligent features and modern user experience.',
     tools: ['Figma', 'Adobe XD', 'Sketch'],
-    thumbnail: '/public/projects/w-aiimtech.jpg',
+    thumbnail: '/projects/w-aiimtech.jpg',
     images: [
-      '/public/projects/w-aiimtech.jpg'
+      '/projects/w-aiimtech.jpg'
     ],
     views: 2890,
     likes: 245,
@@ -182,9 +182,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Enterprise-level financial solutions platform with comprehensive service management.',
     tools: ['Figma', 'Principle'],
-    thumbnail: '/public/projects/w-wfs.jpg',
+    thumbnail: '/projects/w-wfs.jpg',
     images: [
-      '/public/projects/w-wfs.jpg'
+      '/projects/w-wfs.jpg'
     ],
     views: 3120,
     likes: 276,
@@ -197,9 +197,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Creative platform design with innovative layout and engaging user interface elements.',
     tools: ['Figma', 'Adobe XD'],
-    thumbnail: '/public/projects/w-crackertheme.jpg',
+    thumbnail: '/projects/w-crackertheme.jpg',
     images: [
-      '/public/projects/w-crackertheme.jpg'
+      '/projects/w-crackertheme.jpg'
     ],
     views: 2340,
     likes: 198,
@@ -211,9 +211,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Domestic solutions platform with streamlined interface and service optimization.',
     tools: ['Figma', 'Principle', 'Adobe XD'],
-    thumbnail: '/public/projects/w-wfsdomestic.jpg',
+    thumbnail: '/projects/w-wfsdomestic.jpg',
     images: [
-      '/public/projects/w-wfsdomestic.jpg'
+      '/projects/w-wfsdomestic.jpg'
     ],
     views: 2750,
     likes: 231,
@@ -225,9 +225,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Information research system with advanced data management and user-friendly interface.',
     tools: ['Figma', 'Adobe XD'],
-    thumbnail: '/public/projects/w-iir.jpg',
+    thumbnail: '/projects/w-iir.jpg',
     images: [
-      '/public/projects/w-iir.jpg'
+      '/projects/w-iir.jpg'
     ],
     views: 3890,
     likes: 342,
@@ -239,9 +239,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Professional analytics platform with advanced reporting and data visualization capabilities.',
     tools: ['Figma', 'Sketch'],
-    thumbnail: '/public/projects/w-bameletrics.jpg',
+    thumbnail: '/projects/w-bameletrics.jpg',
     images: [
-      '/public/projects/w-bameletrics.jpg'
+      '/projects/w-bameletrics.jpg'
     ],
     views: 2180,
     likes: 189,
@@ -253,9 +253,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Complete technology suite with integrated services and modern design approach.',
     tools: ['Figma', 'Principle'],
-    thumbnail: '/public/projects/w-djstechnologies.jpg',
+    thumbnail: '/projects/w-djstechnologies.jpg',
     images: [
-      '/public/projects/w-djstechnologies.jpg'
+      '/projects/w-djstechnologies.jpg'
     ],
     views: 4120,
     likes: 378,
@@ -268,9 +268,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Advanced AI systems platform with cutting-edge design and intelligent user interactions.',
     tools: ['Figma', 'After Effects'],
-    thumbnail: '/public/projects/w-aiimtech.jpg',
+    thumbnail: '/projects/w-aiimtech.jpg',
     images: [
-      '/public/projects/w-aiimtech.jpg'
+      '/projects/w-aiimtech.jpg'
     ],
     views: 1890,
     likes: 156,
@@ -282,9 +282,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Professional financial services platform with comprehensive client management and service delivery.',
     tools: ['Figma', 'Adobe XD'],
-    thumbnail: '/public/projects/w-wfs.jpg',
+    thumbnail: '/projects/w-wfs.jpg',
     images: [
-      '/public/projects/w-wfs.jpg'
+      '/projects/w-wfs.jpg'
     ],
     views: 2560,
     likes: 218,
@@ -296,9 +296,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Creative design studio platform with portfolio showcase and modern aesthetic appeal.',
     tools: ['Figma', 'Webflow'],
-    thumbnail: '/public/projects/w-crackertheme.jpg',
+    thumbnail: '/projects/w-crackertheme.jpg',
     images: [
-      '/public/projects/w-crackertheme.jpg'
+      '/projects/w-crackertheme.jpg'
     ],
     views: 1720,
     likes: 143,
@@ -310,9 +310,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Domestic service management platform with efficient workflow and user-centered design.',
     tools: ['Figma', 'Adobe XD', 'Sketch'],
-    thumbnail: '/public/projects/w-wfsdomestic.jpg',
+    thumbnail: '/projects/w-wfsdomestic.jpg',
     images: [
-      '/public/projects/w-wfsdomestic.jpg'
+      '/projects/w-wfsdomestic.jpg'
     ],
     views: 3780,
     likes: 324,
@@ -373,7 +373,7 @@ The new design achieved remarkable results:
     author: 'Tom Anderson',
     date: '2024-01-20',
     readTime: '8 min read',
-    thumbnail: 'https://public.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&cs=tinysrgb&w=800',
+    thumbnail: 'https:/.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&cs=tinysrgb&w=800',
     featured: true
   },
   {
@@ -387,7 +387,7 @@ These are battle-tested techniques I've used across dozens of projects...`,
     author: 'Tom Anderson',
     date: '2024-01-15',
     readTime: '5 min read',
-    thumbnail: 'https://public.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800'
+    thumbnail: 'https:/.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: '3',
@@ -400,7 +400,7 @@ Logo design is more than just making something look pretty...`,
     author: 'Tom Anderson',
     date: '2024-01-10',
     readTime: '6 min read',
-    thumbnail: 'https://public.pexels.com/photos/325876/pexels-photo-325876.jpeg?auto=compress&cs=tinysrgb&w=800'
+    thumbnail: 'https:/.pexels.com/photos/325876/pexels-photo-325876.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: '4',
@@ -434,7 +434,7 @@ As a designer, I'm fascinated by how these technologies challenge traditional UI
     author: 'Tom Anderson',
     date: '2024-01-18',
     readTime: '7 min read',
-    thumbnail: 'https://public.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=800',
+    thumbnail: 'https:/.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=800',
     featured: false
   },
   {
@@ -462,7 +462,7 @@ As a visual designer, I'm constantly inspired by how film uses color, compositio
     author: 'Tom Anderson',
     date: '2024-01-12',
     readTime: '5 min read',
-    thumbnail: 'https://public.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=800'
+    thumbnail: 'https:/.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: '6',
@@ -489,7 +489,7 @@ The key is learning to work with AI as a tool while maintaining our unique human
     author: 'Tom Anderson',
     date: '2024-01-08',
     readTime: '6 min read',
-    thumbnail: 'https://public.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800'
+    thumbnail: 'https:/.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: '7',
@@ -529,7 +529,7 @@ The key isn't copying my exact routine, but finding what works for your schedule
     author: 'Tom Anderson',
     date: '2024-01-05',
     readTime: '4 min read',
-    thumbnail: 'https://public.pexels.com/photos/1028741/pexels-photo-1028741.jpeg?auto=compress&cs=tinysrgb&w=800'
+    thumbnail: 'https:/.pexels.com/photos/1028741/pexels-photo-1028741.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: '8',
@@ -566,7 +566,7 @@ As designers, we need to start thinking about spatial interfaces and how traditi
     author: 'Tom Anderson',
     date: '2024-01-22',
     readTime: '3 min read',
-    thumbnail: 'https://public.pexels.com/photos/1841841/pexels-photo-1841841.jpeg?auto=compress&cs=tinysrgb&w=800'
+    thumbnail: 'https:/.pexels.com/photos/1841841/pexels-photo-1841841.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: '9',
@@ -600,7 +600,7 @@ The game's UI is a masterclass in information hierarchy and accessibility. Compl
     author: 'Tom Anderson',
     date: '2024-01-14',
     readTime: '5 min read',
-    thumbnail: 'https://public.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=800'
+    thumbnail: 'https:/.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=800'
   }
 ];
 
@@ -609,7 +609,7 @@ export const mockFeedPosts: FeedPost[] = [
     id: '1',
     type: 'image',
     content: 'Daily UI #17 – Calculator App. Exploring neumorphism design trends.',
-    image: 'https://public.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https:/.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=600',
     likes: 124,
     comments: 18,
     date: '2024-01-22',
@@ -626,7 +626,7 @@ export const mockFeedPosts: FeedPost[] = [
     id: '3',
     type: 'image',
     content: 'New Brand Logo Sketch for a Pet Store. Going for playful yet professional.',
-    image: 'https://public.pexels.com/photos/325876/pexels-photo-325876.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https:/.pexels.com/photos/325876/pexels-photo-325876.jpeg?auto=compress&cs=tinysrgb&w=600',
     likes: 156,
     comments: 12,
     date: '2024-01-20',
