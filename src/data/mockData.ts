@@ -21,7 +21,7 @@ export const mockUser: User = {
   verified: true
 };
 
-export const mockimages: Project[] = [
+export const mockProjects: Project[] = [
   {
     id: '1',
     title: 'Bameletrics Analytics Dashboard',
