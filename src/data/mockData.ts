@@ -17,20 +17,20 @@ export const mockUser: User = {
   },
   followers: 12500,
   following: 890,
-  projects: 47,
+  images: 47,
   verified: true
 };
 
-export const mockProjects: Project[] = [
+export const mockimages: Project[] = [
   {
     id: '1',
     title: 'Bameletrics Analytics Dashboard',
     category: 'Web Design',
     description: 'Comprehensive analytics dashboard with data visualization and reporting features for business intelligence.',
     tools: ['Figma', 'Adobe XD', 'Principle'],
-    thumbnail: '/projects/w-bameletrics.jpg',
+    thumbnail: '/images/w-bameletrics.jpg',
     images: [
-      '/projects/w-bameletrics.jpg'
+      '/images/w-bameletrics.jpg'
     ],
     views: 3240,
     likes: 287,
@@ -47,9 +47,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Modern technology platform with clean interface design and seamless user experience for tech solutions.',
     tools: ['Figma', 'Adobe XD'],
-    thumbnail: '/projects/w-djstechnologies.jpg',
+    thumbnail: '/images/w-djstechnologies.jpg',
     images: [
-      '/projects/w-djstechnologies.jpg'
+      '/images/w-djstechnologies.jpg'
     ],
     views: 2890,
     likes: 203,
@@ -65,9 +65,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'AI and technology solutions platform with modern design and intuitive user interface.',
     tools: ['Adobe Illustrator', 'Photoshop'],
-    thumbnail: '/projects/w-aiimtech.jpg',
+    thumbnail: '/images/w-aiimtech.jpg',
     images: [
-      '/projects/w-aiimtech.jpg'
+      '/images/w-aiimtech.jpg'
     ],
     views: 1560,
     likes: 124,
@@ -79,9 +79,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Professional financial services website with secure design and comprehensive service offerings.',
     tools: ['Figma', 'Principle'],
-    thumbnail: '/projects/w-wfs.jpg',
+    thumbnail: '/images/w-wfs.jpg',
     images: [
-      '/projects/w-wfs.jpg'
+      '/images/w-wfs.jpg'
     ],
     views: 2100,
     likes: 189,
@@ -93,9 +93,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Creative theme design with modern aesthetics and responsive layout for digital platforms.',
     tools: ['Adobe InDesign', 'Illustrator'],
-    thumbnail: '/projects/w-crackertheme.jpg',
+    thumbnail: '/images/w-crackertheme.jpg',
     images: [
-      '/projects/w-crackertheme.jpg'
+      '/images/w-crackertheme.jpg'
     ],
     views: 890,
     likes: 67,
@@ -107,9 +107,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Domestic services platform with user-friendly interface and comprehensive service management.',
     tools: ['Figma', 'Adobe XD'],
-    thumbnail: '/projects/w-wfsdomestic.jpg',
+    thumbnail: '/images/w-wfsdomestic.jpg',
     images: [
-      '/projects/w-wfsdomestic.jpg'
+      '/images/w-wfsdomestic.jpg'
     ],
     views: 2780,
     likes: 234,
@@ -121,9 +121,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Research and information platform with clean design and advanced search capabilities.',
     tools: ['Figma', 'Principle', 'Adobe XD'],
-    thumbnail: '/projects/w-iir.jpg',
+    thumbnail: '/images/w-iir.jpg',
     images: [
-      '/projects/w-iir.jpg'
+      '/images/w-iir.jpg'
     ],
     views: 3450,
     likes: 298,
@@ -140,9 +140,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Advanced analytics dashboard with enhanced features and professional data visualization.',
     tools: ['Figma', 'After Effects'],
-    thumbnail: '/projects/w-bameletrics.jpg',
+    thumbnail: '/images/w-bameletrics.jpg',
     images: [
-      '/projects/w-bameletrics.jpg'
+      '/images/w-bameletrics.jpg'
     ],
     views: 2190,
     likes: 187,
@@ -154,9 +154,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Comprehensive technology solutions hub with modern interface and service integration.',
     tools: ['Adobe Illustrator', 'Photoshop', 'InDesign'],
-    thumbnail: '/projects/w-djstechnologies.jpg',
+    thumbnail: '/images/w-djstechnologies.jpg',
     images: [
-      '/projects/w-djstechnologies.jpg'
+      '/images/w-djstechnologies.jpg'
     ],
     views: 1680,
     likes: 142,
@@ -168,9 +168,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'AI-powered technology platform with intelligent features and modern user experience.',
     tools: ['Figma', 'Adobe XD', 'Sketch'],
-    thumbnail: '/projects/w-aiimtech.jpg',
+    thumbnail: '/images/w-aiimtech.jpg',
     images: [
-      '/projects/w-aiimtech.jpg'
+      '/images/w-aiimtech.jpg'
     ],
     views: 2890,
     likes: 245,
@@ -182,9 +182,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Enterprise-level financial solutions platform with comprehensive service management.',
     tools: ['Figma', 'Principle'],
-    thumbnail: '/projects/w-wfs.jpg',
+    thumbnail: '/images/w-wfs.jpg',
     images: [
-      '/projects/w-wfs.jpg'
+      '/images/w-wfs.jpg'
     ],
     views: 3120,
     likes: 276,
@@ -197,9 +197,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Creative platform design with innovative layout and engaging user interface elements.',
     tools: ['Figma', 'Adobe XD'],
-    thumbnail: '/projects/w-crackertheme.jpg',
+    thumbnail: '/images/w-crackertheme.jpg',
     images: [
-      '/projects/w-crackertheme.jpg'
+      '/images/w-crackertheme.jpg'
     ],
     views: 2340,
     likes: 198,
@@ -211,9 +211,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Domestic solutions platform with streamlined interface and service optimization.',
     tools: ['Figma', 'Principle', 'Adobe XD'],
-    thumbnail: '/projects/w-wfsdomestic.jpg',
+    thumbnail: '/images/w-wfsdomestic.jpg',
     images: [
-      '/projects/w-wfsdomestic.jpg'
+      '/images/w-wfsdomestic.jpg'
     ],
     views: 2750,
     likes: 231,
@@ -225,9 +225,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Information research system with advanced data management and user-friendly interface.',
     tools: ['Figma', 'Adobe XD'],
-    thumbnail: '/projects/w-iir.jpg',
+    thumbnail: '/images/w-iir.jpg',
     images: [
-      '/projects/w-iir.jpg'
+      '/images/w-iir.jpg'
     ],
     views: 3890,
     likes: 342,
@@ -239,9 +239,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Professional analytics platform with advanced reporting and data visualization capabilities.',
     tools: ['Figma', 'Sketch'],
-    thumbnail: '/projects/w-bameletrics.jpg',
+    thumbnail: '/images/w-bameletrics.jpg',
     images: [
-      '/projects/w-bameletrics.jpg'
+      '/images/w-bameletrics.jpg'
     ],
     views: 2180,
     likes: 189,
@@ -253,9 +253,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Complete technology suite with integrated services and modern design approach.',
     tools: ['Figma', 'Principle'],
-    thumbnail: '/projects/w-djstechnologies.jpg',
+    thumbnail: '/images/w-djstechnologies.jpg',
     images: [
-      '/projects/w-djstechnologies.jpg'
+      '/images/w-djstechnologies.jpg'
     ],
     views: 4120,
     likes: 378,
@@ -268,9 +268,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Advanced AI systems platform with cutting-edge design and intelligent user interactions.',
     tools: ['Figma', 'After Effects'],
-    thumbnail: '/projects/w-aiimtech.jpg',
+    thumbnail: '/images/w-aiimtech.jpg',
     images: [
-      '/projects/w-aiimtech.jpg'
+      '/images/w-aiimtech.jpg'
     ],
     views: 1890,
     likes: 156,
@@ -282,9 +282,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Professional financial services platform with comprehensive client management and service delivery.',
     tools: ['Figma', 'Adobe XD'],
-    thumbnail: '/projects/w-wfs.jpg',
+    thumbnail: '/images/w-wfs.jpg',
     images: [
-      '/projects/w-wfs.jpg'
+      '/images/w-wfs.jpg'
     ],
     views: 2560,
     likes: 218,
@@ -296,9 +296,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Creative design studio platform with portfolio showcase and modern aesthetic appeal.',
     tools: ['Figma', 'Webflow'],
-    thumbnail: '/projects/w-crackertheme.jpg',
+    thumbnail: '/images/w-crackertheme.jpg',
     images: [
-      '/projects/w-crackertheme.jpg'
+      '/images/w-crackertheme.jpg'
     ],
     views: 1720,
     likes: 143,
@@ -310,9 +310,9 @@ export const mockProjects: Project[] = [
     category: 'Web Design',
     description: 'Domestic service management platform with efficient workflow and user-centered design.',
     tools: ['Figma', 'Adobe XD', 'Sketch'],
-    thumbnail: '/projects/w-wfsdomestic.jpg',
+    thumbnail: '/images/w-wfsdomestic.jpg',
     images: [
-      '/projects/w-wfsdomestic.jpg'
+      '/images/w-wfsdomestic.jpg'
     ],
     views: 3780,
     likes: 324,
@@ -383,7 +383,7 @@ The new design achieved remarkable results:
     summary: 'Simple but effective UI techniques that can dramatically improve user experience.',
     content: `# 5 UI Tricks That Instantly Improve Any App
 
-These are battle-tested techniques I've used across dozens of projects...`,
+These are battle-tested techniques I've used across dozens of images...`,
     author: 'Tom Anderson',
     date: '2024-01-15',
     readTime: '5 min read',
@@ -521,7 +521,7 @@ I review my priorities for the day while enjoying my first cup of coffee.
 
 ## Why This Works
 
-This routine gives me a sense of accomplishment before I even start work. It also ensures I take care of my physical and mental health before diving into client projects.
+This routine gives me a sense of accomplishment before I even start work. It also ensures I take care of my physical and mental health before diving into client images.
 
 ## Adapting to Your Life
 
@@ -669,6 +669,6 @@ export const mockExperience: Experience[] = [
     company: 'Creative Agency',
     role: 'Junior Designer',
     period: '2019 - 2020',
-    description: 'Worked on branding projects, print design, and digital marketing materials for various clients.',
+    description: 'Worked on branding images, print design, and digital marketing materials for various clients.',
   }
 ];
