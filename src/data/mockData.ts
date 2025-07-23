@@ -4,7 +4,7 @@ export const mockUser: User = {
   id: '1',
   name: 'Tom Anderson',
   username: 'tomanderson',
-  avatar: '/profileperson.png',
+  avatar: '/images/profileperson.png',
   bio: 'UI/UX Designer passionate about creating intuitive digital experiences. I love turning complex problems into simple, beautiful solutions.',
   location: 'San Francisco, CA',
   website: 'tomanderson.design',
