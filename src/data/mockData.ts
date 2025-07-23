@@ -183,7 +183,7 @@ export const mockProjects: Project[] = [
     description: 'Enterprise-level financial solutions platform with comprehensive service management.',
     tools: ['Figma', 'Principle'],
     thumbnail: '/projects/w-wfs.jpg',
-    projects: [
+    images: [
       '/projects/w-wfs.jpg'
     ],
     views: 3120,
@@ -198,7 +198,7 @@ export const mockProjects: Project[] = [
     description: 'Creative platform design with innovative layout and engaging user interface elements.',
     tools: ['Figma', 'Adobe XD'],
     thumbnail: '/projects/w-crackertheme.jpg',
-    projects: [
+    images: [
       '/projects/w-crackertheme.jpg'
     ],
     views: 2340,
@@ -212,7 +212,7 @@ export const mockProjects: Project[] = [
     description: 'Domestic solutions platform with streamlined interface and service optimization.',
     tools: ['Figma', 'Principle', 'Adobe XD'],
     thumbnail: '/projects/w-wfsdomestic.jpg',
-    projects: [
+    images: [
       '/projects/w-wfsdomestic.jpg'
     ],
     views: 2750,
@@ -226,7 +226,7 @@ export const mockProjects: Project[] = [
     description: 'Information research system with advanced data management and user-friendly interface.',
     tools: ['Figma', 'Adobe XD'],
     thumbnail: '/projects/w-iir.jpg',
-    projects: [
+    images: [
       '/projects/w-iir.jpg'
     ],
     views: 3890,
@@ -240,7 +240,7 @@ export const mockProjects: Project[] = [
     description: 'Professional analytics platform with advanced reporting and data visualization capabilities.',
     tools: ['Figma', 'Sketch'],
     thumbnail: '/projects/w-bameletrics.jpg',
-    projects: [
+    images: [
       '/projects/w-bameletrics.jpg'
     ],
     views: 2180,
@@ -254,7 +254,7 @@ export const mockProjects: Project[] = [
     description: 'Complete technology suite with integrated services and modern design approach.',
     tools: ['Figma', 'Principle'],
     thumbnail: '/projects/w-djstechnologies.jpg',
-    projects: [
+    images: [
       '/projects/w-djstechnologies.jpg'
     ],
     views: 4120,
@@ -269,7 +269,7 @@ export const mockProjects: Project[] = [
     description: 'Advanced AI systems platform with cutting-edge design and intelligent user interactions.',
     tools: ['Figma', 'After Effects'],
     thumbnail: '/projects/w-aiimtech.jpg',
-    projects: [
+    images: [
       '/projects/w-aiimtech.jpg'
     ],
     views: 1890,
@@ -283,7 +283,7 @@ export const mockProjects: Project[] = [
     description: 'Professional financial services platform with comprehensive client management and service delivery.',
     tools: ['Figma', 'Adobe XD'],
     thumbnail: '/projects/w-wfs.jpg',
-    projects: [
+    images: [
       '/projects/w-wfs.jpg'
     ],
     views: 2560,
@@ -297,7 +297,7 @@ export const mockProjects: Project[] = [
     description: 'Creative design studio platform with portfolio showcase and modern aesthetic appeal.',
     tools: ['Figma', 'Webflow'],
     thumbnail: '/projects/w-crackertheme.jpg',
-    projects: [
+    images: [
       '/projects/w-crackertheme.jpg'
     ],
     views: 1720,
@@ -311,7 +311,7 @@ export const mockProjects: Project[] = [
     description: 'Domestic service management platform with efficient workflow and user-centered design.',
     tools: ['Figma', 'Adobe XD', 'Sketch'],
     thumbnail: '/projects/w-wfsdomestic.jpg',
-    projects: [
+    images: [
       '/projects/w-wfsdomestic.jpg'
     ],
     views: 3780,
